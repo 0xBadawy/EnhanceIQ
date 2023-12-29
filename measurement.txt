@@ -1,0 +1,402 @@
+psnr for image 1 after apply Histogram equalization equals to 21.1688
+ssim for image 1 after apply Histogram equalization equals to 0.75806
+psnr for image 1 after apply DoG equals to 9.6282
+ssim for image 1 after apply DoG equals to -0.16382
+psnr for image 1 after apply MSR equals to 20.6396
+ssim for image 1 after apply MSR equals to 0.38698
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+psnr for image 2 after apply Histogram equalization equals to 21.9638
+ssim for image 2 after apply Histogram equalization equals to 0.86833
+psnr for image 2 after apply DoG equals to 10.6
+ssim for image 2 after apply DoG equals to -0.0013603
+psnr for image 2 after apply MSR equals to 21.0392
+ssim for image 2 after apply MSR equals to 0.56432
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+psnr for image 3 after apply Histogram equalization equals to 16.6645
+ssim for image 3 after apply Histogram equalization equals to 0.54379
+psnr for image 3 after apply DoG equals to 13.0817
+ssim for image 3 after apply DoG equals to 0.43801
+psnr for image 3 after apply MSR equals to 18.5946
+ssim for image 3 after apply MSR equals to 0.37851
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+psnr for image 4 after apply Histogram equalization equals to 16.5153
+ssim for image 4 after apply Histogram equalization equals to 0.34093
+psnr for image 4 after apply DoG equals to 14.447
+ssim for image 4 after apply DoG equals to 0.48847
+psnr for image 4 after apply MSR equals to 23.4455
+ssim for image 4 after apply MSR equals to 0.80674
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+psnr for image 5 after apply Histogram equalization equals to 23.2323
+ssim for image 5 after apply Histogram equalization equals to 0.80168
+psnr for image 5 after apply DoG equals to 9.8302
+ssim for image 5 after apply DoG equals to -0.11841
+psnr for image 5 after apply MSR equals to 20.0231
+ssim for image 5 after apply MSR equals to 0.49642
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+psnr for image 6 after apply Histogram equalization equals to 20.2306
+ssim for image 6 after apply Histogram equalization equals to 0.76731
+psnr for image 6 after apply DoG equals to 11.3383
+ssim for image 6 after apply DoG equals to 0.29639
+psnr for image 6 after apply MSR equals to 14.121
+ssim for image 6 after apply MSR equals to 0.27035
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+psnr for image 7 after apply Histogram equalization equals to 21.6689
+ssim for image 7 after apply Histogram equalization equals to 0.76161
+psnr for image 7 after apply DoG equals to 10.7517
+ssim for image 7 after apply DoG equals to 0.19137
+psnr for image 7 after apply MSR equals to 15.9131
+ssim for image 7 after apply MSR equals to 0.25138
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+psnr for image 8 after apply Histogram equalization equals to 26.4853
+ssim for image 8 after apply Histogram equalization equals to 0.89379
+psnr for image 8 after apply DoG equals to 10.2375
+ssim for image 8 after apply DoG equals to 0.11481
+psnr for image 8 after apply MSR equals to 16.3505
+ssim for image 8 after apply MSR equals to 0.30075
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+psnr for image 9 after apply Histogram equalization equals to 22.8878
+ssim for image 9 after apply Histogram equalization equals to 0.86414
+psnr for image 9 after apply DoG equals to 11.3093
+ssim for image 9 after apply DoG equals to 0.13133
+psnr for image 9 after apply MSR equals to 19.0805
+ssim for image 9 after apply MSR equals to 0.53956
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+psnr for image 10 after apply Histogram equalization equals to 20.197
+ssim for image 10 after apply Histogram equalization equals to 0.82429
+psnr for image 10 after apply DoG equals to 10.3252
+ssim for image 10 after apply DoG equals to 0.035647
+psnr for image 10 after apply MSR equals to 20.482
+ssim for image 10 after apply MSR equals to 0.53833
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+psnr for image 11 after apply Histogram equalization equals to 18.7432
+ssim for image 11 after apply Histogram equalization equals to 0.59406
+psnr for image 11 after apply DoG equals to 12.5437
+ssim for image 11 after apply DoG equals to 0.21939
+psnr for image 11 after apply MSR equals to 16.3756
+ssim for image 11 after apply MSR equals to 0.080211
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+psnr for image 12 after apply Histogram equalization equals to 19.945
+ssim for image 12 after apply Histogram equalization equals to 0.65209
+psnr for image 12 after apply DoG equals to 12.3452
+ssim for image 12 after apply DoG equals to 0.27272
+psnr for image 12 after apply MSR equals to 19.807
+ssim for image 12 after apply MSR equals to 0.68149
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+psnr for image 13 after apply Histogram equalization equals to 22.5102
+ssim for image 13 after apply Histogram equalization equals to 0.88775
+psnr for image 13 after apply DoG equals to 10.4297
+ssim for image 13 after apply DoG equals to 0.052318
+psnr for image 13 after apply MSR equals to 20.6098
+ssim for image 13 after apply MSR equals to 0.61044
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+psnr for image 14 after apply Histogram equalization equals to 18.3872
+ssim for image 14 after apply Histogram equalization equals to 0.56292
+psnr for image 14 after apply DoG equals to 12.8497
+ssim for image 14 after apply DoG equals to 0.22677
+psnr for image 14 after apply MSR equals to 18.8082
+ssim for image 14 after apply MSR equals to 0.39695
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+psnr for image 15 after apply Histogram equalization equals to 21.2331
+ssim for image 15 after apply Histogram equalization equals to 0.86188
+psnr for image 15 after apply DoG equals to 11.4768
+ssim for image 15 after apply DoG equals to 0.24386
+psnr for image 15 after apply MSR equals to 22.2323
+ssim for image 15 after apply MSR equals to 0.81268
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+psnr for image 16 after apply Histogram equalization equals to 17.3304
+ssim for image 16 after apply Histogram equalization equals to 0.54057
+psnr for image 16 after apply DoG equals to 10.4234
+ssim for image 16 after apply DoG equals to -0.11939
+psnr for image 16 after apply MSR equals to 14.9565
+ssim for image 16 after apply MSR equals to 0.041598
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+psnr for image 17 after apply Histogram equalization equals to 18.5836
+ssim for image 17 after apply Histogram equalization equals to 0.69012
+psnr for image 17 after apply DoG equals to 13.2039
+ssim for image 17 after apply DoG equals to 0.48503
+psnr for image 17 after apply MSR equals to 18.5069
+ssim for image 17 after apply MSR equals to 0.61003
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+psnr for image 18 after apply Histogram equalization equals to 23.3717
+ssim for image 18 after apply Histogram equalization equals to 0.92934
+psnr for image 18 after apply DoG equals to 9.8047
+ssim for image 18 after apply DoG equals to 0.13388
+psnr for image 18 after apply MSR equals to 18.7557
+ssim for image 18 after apply MSR equals to 0.84184
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+psnr for image 19 after apply Histogram equalization equals to 19.4508
+ssim for image 19 after apply Histogram equalization equals to 0.73541
+psnr for image 19 after apply DoG equals to 9.5921
+ssim for image 19 after apply DoG equals to -0.14958
+psnr for image 19 after apply MSR equals to 23.0503
+ssim for image 19 after apply MSR equals to 0.7864
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+psnr for image 20 after apply Histogram equalization equals to 19.1247
+ssim for image 20 after apply Histogram equalization equals to 0.62963
+psnr for image 20 after apply DoG equals to 9.5848
+ssim for image 20 after apply DoG equals to -0.20858
+psnr for image 20 after apply MSR equals to 16.306
+ssim for image 20 after apply MSR equals to 0.12078
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+psnr for image 21 after apply Histogram equalization equals to 17.5478
+ssim for image 21 after apply Histogram equalization equals to 0.46191
+psnr for image 21 after apply DoG equals to 14.0007
+ssim for image 21 after apply DoG equals to 0.39642
+psnr for image 21 after apply MSR equals to 22.9696
+ssim for image 21 after apply MSR equals to 0.71615
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+psnr for image 22 after apply Histogram equalization equals to 25.2988
+ssim for image 22 after apply Histogram equalization equals to 0.9217
+psnr for image 22 after apply DoG equals to 10.0819
+ssim for image 22 after apply DoG equals to -0.12303
+psnr for image 22 after apply MSR equals to 20.4093
+ssim for image 22 after apply MSR equals to 0.66885
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+psnr for image 23 after apply Histogram equalization equals to 23.0992
+ssim for image 23 after apply Histogram equalization equals to 0.88679
+psnr for image 23 after apply DoG equals to 10.4247
+ssim for image 23 after apply DoG equals to -0.067616
+psnr for image 23 after apply MSR equals to 21.4866
+ssim for image 23 after apply MSR equals to 0.78163
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+psnr for image 24 after apply Histogram equalization equals to 17.1126
+ssim for image 24 after apply Histogram equalization equals to 0.45471
+psnr for image 24 after apply DoG equals to 8.392
+ssim for image 24 after apply DoG equals to -0.41483
+psnr for image 24 after apply MSR equals to 18.771
+ssim for image 24 after apply MSR equals to 0.4355
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+psnr for image 25 after apply Histogram equalization equals to 21.956
+ssim for image 25 after apply Histogram equalization equals to 0.82251
+psnr for image 25 after apply DoG equals to 11.7537
+ssim for image 25 after apply DoG equals to 0.19089
+psnr for image 25 after apply MSR equals to 21.8401
+ssim for image 25 after apply MSR equals to 0.69152
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+psnr for image 26 after apply Histogram equalization equals to 21.01
+ssim for image 26 after apply Histogram equalization equals to 0.81866
+psnr for image 26 after apply DoG equals to 10.7967
+ssim for image 26 after apply DoG equals to -0.034752
+psnr for image 26 after apply MSR equals to 24.036
+ssim for image 26 after apply MSR equals to 0.79558
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+psnr for image 27 after apply Histogram equalization equals to 16.3285
+ssim for image 27 after apply Histogram equalization equals to 0.35729
+psnr for image 27 after apply DoG equals to 13.5216
+ssim for image 27 after apply DoG equals to 0.42689
+psnr for image 27 after apply MSR equals to 18.2585
+ssim for image 27 after apply MSR equals to 0.39585
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+psnr for image 28 after apply Histogram equalization equals to 21.5347
+ssim for image 28 after apply Histogram equalization equals to 0.84837
+psnr for image 28 after apply DoG equals to 11.9755
+ssim for image 28 after apply DoG equals to 0.22967
+psnr for image 28 after apply MSR equals to 20.7709
+ssim for image 28 after apply MSR equals to 0.57473
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+psnr for image 29 after apply Histogram equalization equals to 23.1809
+ssim for image 29 after apply Histogram equalization equals to 0.93328
+psnr for image 29 after apply DoG equals to 11.102
+ssim for image 29 after apply DoG equals to 0.12508
+psnr for image 29 after apply MSR equals to 19.7853
+ssim for image 29 after apply MSR equals to 0.79187
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+psnr for image 30 after apply Histogram equalization equals to 20.6078
+ssim for image 30 after apply Histogram equalization equals to 0.80981
+psnr for image 30 after apply DoG equals to 12.2148
+ssim for image 30 after apply DoG equals to 0.36926
+psnr for image 30 after apply MSR equals to 19.8478
+ssim for image 30 after apply MSR equals to 0.73406
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+average Psnr for histogram equalization is 20.579
+average Psnrfor MSR is 19.5758
+average Psnr for DoG is 11.2689
+average ssim for histogram equalization is 0.72742
+average ssim for MSR is 0.53672
+average ssim for DoG is 0.12223
