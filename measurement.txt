@@ -24,6 +24,7 @@ ssim for image 2 after apply MSR equals to 0.56432
 
 
 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 psnr for image 3 after apply Histogram equalization equals to 16.6645
 ssim for image 3 after apply Histogram equalization equals to 0.54379
