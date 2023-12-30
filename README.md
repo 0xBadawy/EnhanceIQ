@@ -1,4 +1,9 @@
-# Histogram Equalization
+
+<h1>Image Processing Filters</h1>
+
+
+
+## Histogram Equalization
 
 histogram equalization is a method in image proccessing  baesd on histogram of an image. it is used especially when the image is represented by a narrow range of intensity values.
 its main functionality is to make the image's pixels have better  distributed on the histogram.
@@ -6,7 +11,7 @@ its main functionality is to make the image's pixels have better  distributed on
 
 
 
-# difference of gaussian (DOG) 
+## difference of gaussian (DOG) 
 
 In order to explain the DOG filter, we should first explain gaussian filter.
 
@@ -25,7 +30,7 @@ Now let us explain GOG filter:
 The Difference of Gaussians (DoG) filter is used in image processing to enhance edges and identify features at different scales.
 It is obtained by subtracting one blurred version of an image from another, where each version is created using a Gaussian filter with a different standard deviation.
 
-#  MSR Filter 
+##  MSR Filter 
 The Multiscale Retinex algorithm is an image enhancement technique that aims 
 to improve the contrast of an image by normalizing pixel values across different scales. 
 The algorithm operates by applying a series of operations at multiple scales.
@@ -45,7 +50,7 @@ The algorithm operates by applying a series of operations at multiple scales.
 
 
 
-# PSNR
+## PSNR
 The PSNR block computes the peak signal-to-noise ratio, in decibels, between two images. This ratio is used as a quality measurement between the original and a compressed image. The higher the PSNR, the better the quality of the compressed, or reconstructed image.
 
 PSNR = 10log10((L-1)^2/MSE
@@ -57,27 +62,27 @@ Where, O represents the matrix data of original image. D represents the matrix d
 
 
 
-# SSIM 
+## SSIM 
 Structural Similarity Index is a metric used to measure the similarity between two images. SSIM takes into account luminance, contrast, and structure, which are important aspects of human perception. The index produces a value between -1 and 1, where 1 indicates perfect similarity, -1 indicates perfect dissimilarity, and 0 means no similarity.
 SSIM is widely used in image processing and computer vision to evaluate the quality of compressed images, assess the impact of image processing algorithms, or compare the similarity between an original image and a processed one. It provides a more comprehensive assessment than traditional metrics like Mean Squared Error (MSE), as it considers both global and local variations in image structure.
 
 
 
-# Filter on color
+## Filter on color
 [![](https://github.com/Mohamed-badawy-sayed/image_processing_Filters/blob/3675e6f05ed44220d019cced422d64c779c3d86b/repo/Image%20num%20(8).png)]()
 
 
-# Filter on color
+## Filter on color
 [![](https://github.com/Mohamed-badawy-sayed/image_processing_Filters/blob/3675e6f05ed44220d019cced422d64c779c3d86b/repo/Image%20num%20(5).png)]()
 
-# PSNR Measurements
+## PSNR Measurements
 
 |          | DOG   | Hist     | MSR     |
 |----------|-------|----------|---------|
 | PSNR     | 5.97  | 16.6246  | 11.6054 |
 [![](https://github.com/Mohamed-badawy-sayed/image_processing_Filters/blob/3675e6f05ed44220d019cced422d64c779c3d86b/repo/Image%20num%20(6).png)]()
 
-# SSIM Measurements
+## SSIM Measurements
 
 |      | DOG     | Hist   | MSR   |
 |------|---------|--------|-------|
@@ -88,9 +93,6 @@ SSIM is widely used in image processing and computer vision to evaluate the qual
 ## Contributing
 
 We love our contributors! Here's how you can contribute:
-
-
-
 <a href="https://github.com/Mohamed-badawy-sayed/image_processing_Filters/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Mohamed-badawy-sayed/image_processing_Filters" />
 </a>
