@@ -171,17 +171,22 @@ disp(['average ssim for DoG is ' num2str(SSIM_DoG)]);
 
 ## PSNR Measurements
 
-|          | DOG   | Hist     | MSR     |
-|----------|-------|----------|---------|
-|          | 5.97  | 16.6246  | 11.6054 |
-[![](https://github.com/Mohamed-badawy-sayed/image_processing_Filters/blob/3675e6f05ed44220d019cced422d64c779c3d86b/repo/Image%20num%20(6).png)]()
+| [![](https://github.com/Mohamed-badawy-sayed/image_processing_Filters/blob/3675e6f05ed44220d019cced422d64c779c3d86b/repo/Image%20num%20(6).png)]() |
+|----------------------------------------------------------------------------------------------------------------------------------------------------|
+
+| MSR     | Hist    | DOG  |
+|---------|---------|------|
+| 11.6054 | 16.6246 | 5.97 |
 
 ## SSIM Measurements
 
-|      | DOG     | Hist   | MSR   |
-|------|---------|--------|-------|
-|      | -0.0811 | 0.7583 | 0.713 |
-[![](https://github.com/Mohamed-badawy-sayed/image_processing_Filters/blob/3675e6f05ed44220d019cced422d64c779c3d86b/repo/Image%20num%20(7).png)]()
+| [![](https://github.com/Mohamed-badawy-sayed/image_processing_Filters/blob/3675e6f05ed44220d019cced422d64c779c3d86b/repo/Image%20num%20(7).png)]() |
+|----------------------------------------------------------------------------------------------------------------------------------------------------|
+
+| MSR   | Hist   | DOG     |
+|-------|--------|---------|
+| 0.713 | 0.7583 | -0.0811 |
+
 
 
 ## Contributing
