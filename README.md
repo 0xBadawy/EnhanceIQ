@@ -1,6 +1,5 @@
 
-<h1>Image Processing Filters</h1>
-
+ <h1 style="text-align: center;">Image Processing Filters</h1>
 
 
 ## Histogram Equalization
