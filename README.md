@@ -63,3 +63,24 @@ SSIM is widely used in image processing and computer vision to evaluate the qual
 
 
 
+# Filter on color
+[![](https://github.com/Mohamed-badawy-sayed/image_processing_Filters/blob/3675e6f05ed44220d019cced422d64c779c3d86b/repo/Image%20num%20(8).png)]()
+
+
+# Filter on color
+[![](https://github.com/Mohamed-badawy-sayed/image_processing_Filters/blob/3675e6f05ed44220d019cced422d64c779c3d86b/repo/Image%20num%20(5).png)]()
+
+# PSNR Measurements
+
+|          | DOG   | Hist     | MSR     |
+|----------|-------|----------|---------|
+| PSNR     | 5.97  | 16.6246  | 11.6054 |
+[![](https://github.com/Mohamed-badawy-sayed/image_processing_Filters/blob/3675e6f05ed44220d019cced422d64c779c3d86b/repo/Image%20num%20(6).png)]()
+
+# SSIM Measurements
+
+|      | DOG     | Hist   | MSR   |
+|------|---------|--------|-------|
+| SSIM | -0.0811 | 0.7583 | 0.713 |
+[![](https://github.com/Mohamed-badawy-sayed/image_processing_Filters/blob/3675e6f05ed44220d019cced422d64c779c3d86b/repo/Image%20num%20(7).png)]()
+
