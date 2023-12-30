@@ -4,7 +4,7 @@
 
 ## Histogram Equalization
 
-histogram equalization is a method in image proccessing  baesd on histogram of an image. it is used especially when the image is represented by a narrow range of intensity values.
+Histogram equalization is a method in image proccessing  baesd on histogram of an image. it is used especially when the image is represented by a narrow range of intensity values.
 its main functionality is to make the image's pixels have better  distributed on the histogram.
 
 
@@ -18,7 +18,7 @@ Gassian filter is based on the mathematical concept of the Gaussian function, wh
 
 
 
-●π is the mathematical constant pi (approximately 3.14159).
+●π is the mathematical constant Pi (approximately 3.14159).
 
 ●σ is the standard deviation of the Gaussian distribution, controlling the spread of the curve.
 
