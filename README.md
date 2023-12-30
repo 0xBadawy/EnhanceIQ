@@ -65,27 +65,111 @@ Where, O represents the matrix data of original image. D represents the matrix d
 Structural Similarity Index is a metric used to measure the similarity between two images. SSIM takes into account luminance, contrast, and structure, which are important aspects of human perception. The index produces a value between -1 and 1, where 1 indicates perfect similarity, -1 indicates perfect dissimilarity, and 0 means no similarity.
 SSIM is widely used in image processing and computer vision to evaluate the quality of compressed images, assess the impact of image processing algorithms, or compare the similarity between an original image and a processed one. It provides a more comprehensive assessment than traditional metrics like Mean Squared Error (MSE), as it considers both global and local variations in image structure.
 
+## Code to use 
+```matlab
+input=datastore("dataset");
+gaussian1 = fspecial('Gaussian', 10, 1.07);
+gaussian2 = fspecial('Gaussian', 10, 1);
+dog = gaussian1 - gaussian2;
+sigma = 5;
+scales = [15, 80, 250];
+filt_size = 2 * ceil(3 * sigma) + 1;
+Psnr_histo=0;
+Psnr_MSR=0;
+Psnr_DoG=0;
+SSIM_histo=0;
+SSIM_MSR=0;
+SSIM_DoG=0;
 
+for i=1:length(input.Files)
+    img=input.read();
+    img=rgb2ycbcr(img);
+    img2=img;
+    GrayLevel=img(:,:,1);
+    disp('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%');
+    
+    
+    %%%%%%%%%%%%% apply histogram%%%%%%%%%%%%%%%%%
+    HistImage=histeq(GrayLevel);
+    img(:,:,1)=HistImage;
+    imwrite(ycbcr2rgb(img),['Histogram/img' int2str(i) '.jpg']);
+    Psnr_histo=Psnr_histo+psnr(img,img2);
+    SSIM_histo=SSIM_histo+ssim(img,img2);
+    disp (['psnr for image ' int2str(i) ' after apply Histogram equalization equals to '  num2str(psnr(img,img2))]);
+    disp (['ssim for image ' int2str(i) ' after apply Histogram equalization equals to '  num2str(ssim(img,img2))]);
+    
+
+
+    %%%%%%%%%%%%% apply DoG %%%%%%%%%%%%%%%%%%%%%%
+    DoGImage=conv2(double(GrayLevel), dog, 'same');
+    DoGImage=uint8(255*DoGImage);
+    img(:,:,1)=DoGImage;
+    imwrite(ycbcr2rgb(img),['DOG/img' int2str(i) '.jpg']);
+    Psnr_DoG=Psnr_DoG+psnr(img,img2);
+    SSIM_DoG=SSIM_DoG+ssim(img,img2);
+    disp (['psnr for image ' int2str(i) ' after apply DoG equals to '  num2str(psnr(img,img2))]);
+    disp (['ssim for image ' int2str(i) ' after apply DoG equals to '  num2str(ssim(img,img2))]);
+    
+
+
+    %%%%%%%%%%%%% apply MSR %%%%%%%%%%%%%%%%%%%%%%
+    Img = double(GrayLevel);
+    enhanced = zeros(size(Img));
+    for j = 1:length(scales)
+        gaussian_filter = fspecial('gaussian', [filt_size, filt_size], sigma * scales(j));
+        blurred_image = imfilter(Img, gaussian_filter, 'conv');
+     
+        retinex_component = log(Img + 1) - log(blurred_image + 1);
+     
+        enhanced = enhanced + retinex_component;
+    end
+    enhanced = uint8( (enhanced - min(enhanced(:))) / (max(enhanced(:)) - min(enhanced(:))) * 255 );
+    img(:,:,1)=enhanced;
+    imwrite(ycbcr2rgb(img),['MSR/img' int2str(i) '.jpg']);
+    Psnr_MSR=Psnr_MSR+psnr(img,img2);
+    SSIM_MSR=SSIM_MSR+ssim(img,img2);
+    disp (['psnr for image ' int2str(i) ' after apply MSR equals to '  num2str(psnr(img,img2))]);
+    disp (['ssim for image ' int2str(i) ' after apply MSR equals to '  num2str(ssim(img,img2))]);
+    
+    
+    disp('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%');
+    
+    
+end
+Psnr_MSR=Psnr_MSR/length(input.Files);
+Psnr_DoG=Psnr_DoG/length(input.Files);
+Psnr_histo=Psnr_histo/length(input.Files);
+SSIM_MSR=SSIM_MSR/length(input.Files);
+SSIM_DoG=SSIM_DoG/length(input.Files);
+SSIM_histo=SSIM_histo/length(input.Files);
+disp(['average Psnr for histogram equalization is ' num2str(Psnr_histo)]);
+disp(['average Psnrfor MSR is ' num2str(Psnr_MSR)]);
+disp(['average Psnr for DoG is ' num2str(Psnr_DoG)]);
+disp(['average ssim for histogram equalization is ' num2str(SSIM_histo)]);
+disp(['average ssim for MSR is ' num2str(SSIM_MSR)]);
+disp(['average ssim for DoG is ' num2str(SSIM_DoG)]);
+
+```
 
 ## Filter on color
 [![](https://github.com/Mohamed-badawy-sayed/image_processing_Filters/blob/3675e6f05ed44220d019cced422d64c779c3d86b/repo/Image%20num%20(8).png)]()
 
 
-## Filter on color
+## Filter on grayscale
 [![](https://github.com/Mohamed-badawy-sayed/image_processing_Filters/blob/3675e6f05ed44220d019cced422d64c779c3d86b/repo/Image%20num%20(5).png)]()
 
 ## PSNR Measurements
 
 |          | DOG   | Hist     | MSR     |
 |----------|-------|----------|---------|
-| PSNR     | 5.97  | 16.6246  | 11.6054 |
+|          | 5.97  | 16.6246  | 11.6054 |
 [![](https://github.com/Mohamed-badawy-sayed/image_processing_Filters/blob/3675e6f05ed44220d019cced422d64c779c3d86b/repo/Image%20num%20(6).png)]()
 
 ## SSIM Measurements
 
 |      | DOG     | Hist   | MSR   |
 |------|---------|--------|-------|
-| SSIM | -0.0811 | 0.7583 | 0.713 |
+|      | -0.0811 | 0.7583 | 0.713 |
 [![](https://github.com/Mohamed-badawy-sayed/image_processing_Filters/blob/3675e6f05ed44220d019cced422d64c779c3d86b/repo/Image%20num%20(7).png)]()
 
 
