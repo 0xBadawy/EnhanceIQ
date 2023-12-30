@@ -90,8 +90,6 @@ SSIM is widely used in image processing and computer vision to evaluate the qual
 
 
 ## Contributing
-
-We love our contributors! Here's how you can contribute:
 <a href="https://github.com/Mohamed-badawy-sayed/image_processing_Filters/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Mohamed-badawy-sayed/image_processing_Filters" />
 </a>
