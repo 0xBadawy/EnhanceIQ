@@ -84,3 +84,15 @@ SSIM is widely used in image processing and computer vision to evaluate the qual
 | SSIM | -0.0811 | 0.7583 | 0.713 |
 [![](https://github.com/Mohamed-badawy-sayed/image_processing_Filters/blob/3675e6f05ed44220d019cced422d64c779c3d86b/repo/Image%20num%20(7).png)]()
 
+
+## Contributing
+
+We love our contributors! Here's how you can contribute:
+
+
+
+<a href="https://github.com/Mohamed-badawy-sayed/image_processing_Filters/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Mohamed-badawy-sayed/image_processing_Filters" />
+</a>
+
+
