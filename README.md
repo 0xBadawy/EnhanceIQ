@@ -19,13 +19,17 @@ Gassian filter is based on the mathematical concept of the Gaussian function, wh
 
 
 ●π is the mathematical constant pi (approximately 3.14159).
+
 ●σ is the standard deviation of the Gaussian distribution, controlling the spread of the curve.
+
 ●e is the mathematical constant Euler's number (approximately 2.71828).
+
 ●G(x,y) is the value of the 2D Gaussian function at position (x,y)
 
 The primary purpose of applying a Gaussian filter to an image is to reduce noise by smoothing the image 
 
 Now let us explain GOG filter:
+
 The Difference of Gaussians (DoG) filter is used in image processing to enhance edges and identify features at different scales.
 It is obtained by subtracting one blurred version of an image from another, where each version is created using a Gaussian filter with a different standard deviation.
 
@@ -35,14 +39,21 @@ to improve the contrast of an image by normalizing pixel values across different
 The algorithm operates by applying a series of operations at multiple scales.
 
 1- define some parameters for applying the algorithm 
+
 	sigma: the standard deviation for the Gaussian filter.
+ 
 	scales: the scales at which the MSR algorithm operates.
+ 
 	filt_size: the size of the Gaussian filter.
+ 
 	enhanced: a matrix filled with zeros which will accumulates the Retinex components of the image.
 
 2- iterate through each scale specified in scales and do the following:
+
 	- apply the Gaussian Filter to the image at the current scale (Which was explained in the DOG filter).
+ 
 	- calculate the Retinex component for the current scale.
+ 
 	- accumulate the Retinex component to %enhanced%
 
 3- Normalize the enhanced image to the range [0, 255] and convert it back to uint8
