@@ -6,7 +6,7 @@
 
 Histogram equalization is a method in image proccessing  baesd on histogram of an image. it is used especially when the image is represented by a narrow range of intensity values.
 its main functionality is to make the image's pixels have better  distributed on the histogram.
-
+ 
 
 
 
