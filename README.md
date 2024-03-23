@@ -193,7 +193,7 @@ disp(['average ssim for DoG is ' num2str(SSIM_DoG)]);
 
 <table style="margin: auto;">
         <tr>
-            <td style="text-align: center;"><a href="https://github.com/Mohamed-badawy-sayed"><img src="https://github.com/Mohamed-badawy-sayed/info/blob/baf974551d6a6ccc8b8429f99c7f656b9529ec78/repo/images/file/profile%20(1).png" alt="Image 1" width="100px"></a></td>
+            <td style="text-align: center;"><a href="https://github.com/0xBadawy"><img src="https://github.com/Mohamed-badawy-sayed/info/blob/baf974551d6a6ccc8b8429f99c7f656b9529ec78/repo/images/file/profile%20(1).png" alt="Image 1" width="100px"></a></td>
             <td style="text-align: center;"><a href="https://github.com/Mostafa-El-gelany"><img src="https://github.com/Mohamed-badawy-sayed/info/blob/baf974551d6a6ccc8b8429f99c7f656b9529ec78/repo/images/file/profile%20(2).png" alt="Image 1" width="100px"></a></td>
             <td style="text-align: center;"><a href="https://github.com/Ahmed-Nageh-Abbas"><img src="https://github.com/Mohamed-badawy-sayed/info/blob/baf974551d6a6ccc8b8429f99c7f656b9529ec78/repo/images/file/profile%20(3).png" alt="Image 1" width="100px"></a></td>
             <td style="text-align: center;"><a href="https://github.com/Mahmoud-Khalell"><img src="https://github.com/Mohamed-badawy-sayed/info/blob/baf974551d6a6ccc8b8429f99c7f656b9529ec78/repo/images/file/profile%20(4).png" alt="Image 1" width="100px"></a></td>
