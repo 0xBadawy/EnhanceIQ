@@ -201,7 +201,7 @@ disp(['average ssim for DoG is ' num2str(SSIM_DoG)]);
             <td style="text-align: center;"><a href="https://github.com/Basant-Benyamen"><img src="https://github.com/Mohamed-badawy-sayed/info/blob/baf974551d6a6ccc8b8429f99c7f656b9529ec78/repo/images/file/profile%20(5).png" alt="Image 1" width="100px"></a></td>
         </tr>
         <tr>
-            <td style="text-align: center;"><a href="https://github.com/Mohamed-badawy-sayed"> Mohamed badawy</a></td>
+            <td style="text-align: center;"><a href="https://github.com/0xBadawy"> Mohamed badawy</a></td>
             <td style="text-align: center;"><a href="https://github.com/Mostafa-El-gelany">Mostafa El-gelany</a></td>
             <td style="text-align: center;"><a href="https://github.com/Ahmed-Nageh-Abbas">Ahmed Nageh</a></td>
             <td style="text-align: center;"><a href="https://github.com/Mahmoud-Khalell">Mahmoud Khalell</a></td>
